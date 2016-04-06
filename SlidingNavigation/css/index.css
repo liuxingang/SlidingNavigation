@@ -1,0 +1,46 @@
+*{
+	margin:0;
+	padding:0;
+}
+ul{
+	list-style-type: none;
+}
+a{
+	text-decoration: none;
+	color:#757373;
+	font-weight: bold;
+}
+
+#nav-wrapper{
+	margin: 100px auto;
+	width:60%;
+	border-bottom: 2px solid #ddd;
+	position: relative;
+	
+}
+#nav-wrapper #nav-menu{
+	width:100%;
+}
+#nav-wrapper #nav-menu ul{
+	font-size: 0;
+}
+#nav-wrapper #nav-menu li{
+	font-size: 16px;
+	display: inline-block;
+	width:20%;
+	height:35px;
+	line-height: 35px;
+	text-align: center;
+}
+#nav-wrapper #nav-menu li a{
+	display: inline-block;
+	width:100%;
+}
+
+/*滑动条*/
+#nav-wrapper #nav-slide{
+	position: absolute;
+	height:2px;
+	background: red;
+	
+}
